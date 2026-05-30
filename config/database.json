@@ -1,0 +1,435 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "phone": "+380991234567",
+      "password": "abc",
+      "id": "b11b05c7-48bf-4a10-b7ef-1050403cf6cc",
+      "createdAt": "2026-05-30T14:25:07.275Z"
+    },
+    {
+      "email": "apirogova901@gmail.com",
+      "password": "2231122311",
+      "firstName": "Anastasiia",
+      "lastName": "Pyrohova",
+      "phone": "+380995670975",
+      "id": "aba80e24-26c0-442b-8f85-d7cdc4289dd3",
+      "createdAt": "2026-05-30T14:34:20.784Z"
+    },
+    {
+      "email": "w@gmail.com",
+      "password": "22311",
+      "firstName": "1",
+      "lastName": "2",
+      "phone": "+380994467897",
+      "id": "271eabaa-8e1d-4fab-ab70-3f3e856324f9",
+      "createdAt": "2026-05-30T15:50:32.183Z"
+    }
+  ],
+  "fighters": [
+    {
+      "name": "Ryu",
+      "power": 50,
+      "defense": 5,
+      "health": 85,
+      "id": "6183f639-e3fc-4cc7-9e1f-de0f15928425",
+      "createdAt": "2026-05-30T14:25:22.814Z"
+    },
+    {
+      "name": "Ken",
+      "power": 60,
+      "defense": 4,
+      "health": 100,
+      "id": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "createdAt": "2026-05-30T14:25:22.824Z"
+    },
+    {
+      "name": "Aaa",
+      "power": 23,
+      "defense": 5,
+      "health": 85,
+      "id": "86333632-42b9-4383-9035-658769c56c5d",
+      "createdAt": "2026-05-30T14:34:33.504Z"
+    },
+    {
+      "name": "мрвс",
+      "power": 100,
+      "defense": 6,
+      "health": 85,
+      "id": "857bb180-88b4-42f6-a2e1-596fcef662ef",
+      "createdAt": "2026-05-30T14:42:05.322Z"
+    },
+    {
+      "name": "амскву",
+      "power": 100,
+      "defense": 10,
+      "health": 85,
+      "id": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "createdAt": "2026-05-30T14:51:24.292Z"
+    },
+    {
+      "name": "тотрр",
+      "power": 3,
+      "defense": 10,
+      "health": 85,
+      "id": "14dc2ba5-ca33-4af2-bcf2-d1ecc7dbe116",
+      "createdAt": "2026-05-30T14:58:07.124Z"
+    },
+    {
+      "name": "45",
+      "power": 3,
+      "defense": 10,
+      "health": 85,
+      "id": "1ab9daad-d35b-407b-bf9e-d5356827328f",
+      "createdAt": "2026-05-30T15:00:47.761Z"
+    },
+    {
+      "name": "ed",
+      "power": 23,
+      "defense": 4,
+      "health": 85,
+      "id": "fbbc2625-68d9-4859-bc22-38e67c0bc2eb",
+      "createdAt": "2026-05-30T15:50:45.868Z"
+    }
+  ],
+  "fights": [
+    {
+      "fighter1": "6183f639-e3fc-4cc7-9e1f-de0f15928425",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "fighter1Shot": 46,
+          "fighter2Shot": 55,
+          "fighter1Health": 30,
+          "fighter2Health": 54
+        },
+        {
+          "fighter1Shot": 46,
+          "fighter2Shot": 55,
+          "fighter1Health": 0,
+          "fighter2Health": 8
+        }
+      ],
+      "id": "66db7415-823f-4eda-a8fb-44966cd137f9",
+      "createdAt": "2026-05-30T14:25:22.883Z"
+    },
+    {
+      "fighter1": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "fighter2": "86333632-42b9-4383-9035-658769c56c5d",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 95.93,
+          "fighter2Shot": 15.5,
+          "fighter1Health": 84.5,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "e248ff79-e65a-4256-88ab-72b290f25d04",
+      "createdAt": "2026-05-30T14:37:57.467Z"
+    },
+    {
+      "fighter1": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "fighter2": "6183f639-e3fc-4cc7-9e1f-de0f15928425",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 88.5,
+          "fighter2Shot": 75.22,
+          "fighter1Health": 24.78,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "86f87ffd-2dda-4ff7-924c-11fa6f637810",
+      "createdAt": "2026-05-30T14:38:11.303Z"
+    },
+    {
+      "fighter1": "86333632-42b9-4383-9035-658769c56c5d",
+      "fighter2": "6183f639-e3fc-4cc7-9e1f-de0f15928425",
+      "winner": "6183f639-e3fc-4cc7-9e1f-de0f15928425",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 36.66,
+          "fighter2Shot": 86.65,
+          "fighter1Health": 0,
+          "fighter2Health": 48.34,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "41579a11-2feb-4516-8b2a-e19cfded34f8",
+      "createdAt": "2026-05-30T14:38:14.517Z"
+    },
+    {
+      "fighter1": "857bb180-88b4-42f6-a2e1-596fcef662ef",
+      "fighter2": "6183f639-e3fc-4cc7-9e1f-de0f15928425",
+      "winner": "857bb180-88b4-42f6-a2e1-596fcef662ef",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 139.23,
+          "fighter2Shot": 55.12,
+          "fighter1Health": 29.88,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "472b729f-7ad7-4de1-8b26-918c92298261",
+      "createdAt": "2026-05-30T14:42:08.339Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 179.35,
+          "fighter2Shot": 57.76,
+          "fighter1Health": 27.24,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "b33c1ccd-43af-4d09-96c6-309ae9544617",
+      "createdAt": "2026-05-30T14:51:29.255Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 145.99,
+          "fighter2Shot": 70.62,
+          "fighter1Health": 14.38,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "3835aeb7-10c5-495b-b65a-3d87eedf9b7b",
+      "createdAt": "2026-05-30T14:51:38.508Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 100.31,
+          "fighter2Shot": 57.61,
+          "fighter1Health": 27.39,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "613a7eb7-e158-4f1f-9dce-43a7219f32e0",
+      "createdAt": "2026-05-30T14:51:39.409Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 186.92,
+          "fighter2Shot": 76.36,
+          "fighter1Health": 8.64,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "94dc995e-f366-4cb4-b1a3-4cc27458c32f",
+      "createdAt": "2026-05-30T14:51:39.624Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 158.03,
+          "fighter2Shot": 72.34,
+          "fighter1Health": 12.66,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "1209ae0f-92fc-4055-8943-53a42249642a",
+      "createdAt": "2026-05-30T14:51:39.808Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 107.48,
+          "fighter2Shot": 88.46,
+          "fighter1Health": 0,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "8a521c5f-6805-4317-b816-fd4c6f8f71fb",
+      "createdAt": "2026-05-30T14:51:39.989Z"
+    },
+    {
+      "fighter1": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "e0d3681f-9345-44cb-86bb-f7d6f35b7775",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 188.27,
+          "fighter2Shot": 72.18,
+          "fighter1Health": 12.82,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "6aa93716-89d8-40e0-be43-4cc1fabf7e8c",
+      "createdAt": "2026-05-30T14:51:40.140Z"
+    },
+    {
+      "fighter1": "1ab9daad-d35b-407b-bf9e-d5356827328f",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 0,
+          "fighter2Shot": 68.37,
+          "fighter1Health": 16.63,
+          "fighter2Health": 100,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        },
+        {
+          "round": 2,
+          "fighter1Shot": 0.85,
+          "fighter2Shot": 100.26,
+          "fighter1Health": 0,
+          "fighter2Health": 99.15,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "a6b3be7e-be1c-4e1b-9455-4e8a452d8753",
+      "createdAt": "2026-05-30T15:00:53.326Z"
+    },
+    {
+      "fighter1": "1ab9daad-d35b-407b-bf9e-d5356827328f",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 0,
+          "fighter2Shot": 65.86,
+          "fighter1Health": 19.14,
+          "fighter2Health": 100,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        },
+        {
+          "round": 2,
+          "fighter1Shot": 0.01,
+          "fighter2Shot": 80.59,
+          "fighter1Health": 0,
+          "fighter2Health": 99.99,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "6d912524-d00c-4d24-b4ed-4b1cfc46eb5b",
+      "createdAt": "2026-05-30T15:04:12.993Z"
+    },
+    {
+      "fighter1": "1ab9daad-d35b-407b-bf9e-d5356827328f",
+      "fighter2": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "winner": "c0a842b9-cb5b-410e-baba-483b19372f0b",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 0,
+          "fighter2Shot": 58.47,
+          "fighter1Health": 26.53,
+          "fighter2Health": 100,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        },
+        {
+          "round": 2,
+          "fighter1Shot": 0,
+          "fighter2Shot": 87.56,
+          "fighter1Health": 0,
+          "fighter2Health": 100,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "58c367f4-4b03-4424-8fd7-921218cf6022",
+      "createdAt": "2026-05-30T15:04:13.559Z"
+    },
+    {
+      "fighter1": "86333632-42b9-4383-9035-658769c56c5d",
+      "fighter2": "fbbc2625-68d9-4859-bc22-38e67c0bc2eb",
+      "winner": "fbbc2625-68d9-4859-bc22-38e67c0bc2eb",
+      "log": [
+        {
+          "round": 1,
+          "fighter1Shot": 32.38,
+          "fighter2Shot": 25.75,
+          "fighter1Health": 59.25,
+          "fighter2Health": 52.62,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        },
+        {
+          "round": 2,
+          "fighter1Shot": 36.19,
+          "fighter2Shot": 25.23,
+          "fighter1Health": 34.02,
+          "fighter2Health": 16.43,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        },
+        {
+          "round": 3,
+          "fighter1Shot": 25.94,
+          "fighter2Shot": 39.06,
+          "fighter1Health": 0,
+          "fighter2Health": 0,
+          "fighter1CriticalHit": false,
+          "fighter2CriticalHit": false
+        }
+      ],
+      "id": "8976f01a-6b46-420a-9315-f98053cdf51a",
+      "createdAt": "2026-05-30T15:50:54.685Z"
+    }
+  ]
+}
